@@ -1,6 +1,16 @@
 <template>
-  <div class="app">我是根组件</div>
+  <div class="app"> 我是根组件</div>
 </template>
 
-<style >
+<script>
+export default {
+
+}
+</script>
+
+<style>
+.app{
+  color: red;
+  font-size: 40px;
+}
 </style>
